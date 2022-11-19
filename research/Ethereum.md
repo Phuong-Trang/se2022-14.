@@ -1,14 +1,15 @@
-###**TÌM HIỂU VỀ ETHEREUM BLOCKCHAIN**
+## **TÌM HIỂU VỀ ETHEREUM BLOCKCHAIN**
 
 Ethereum là một mạng blockchain phân tán và sử dụng mã nguồn mở phi tập trung được cung cấp bởi tiền điện tử gốc của nó mang tên Ether (ETH). Nó được sử dụng để thực hiện các giao dịch và tương tác với các ứng dụng được xây dựng trên mạng Ethereum. Các ứng dụng tiềm năng của Ethereum rất phổ biến nhờ vào việc sử dụng các hợp đồng thông minh (smart contract)
 
-**So sánh giữa Bitcoin và Ethereum**
+### **So sánh giữa Bitcoin và Ethereum**
 
 |**Bitcoin**|**Ethereum**|
-| - | - |
+| ------ | ------ |
 |<p></p><p></p>|ETH có Verticals: End User Applications|
 |Wallet/Exchange Application|Application Framework: Smart Contracts|
 |Bitcoin Blockchain Protocol/Operation |ETH Blockchain and EVM|
+
 Bên trái là Bitcoin blockchain và ứng dụng ví cho các giao dịch khởi phát. Bên phải là Ethereum đã thực hiện một bước quan trọng để hướng đến việc biến blockchain thành một khung làm việc tính toán mở ra một thế giới vô vàn cơ hội trong lĩnh vực phi tập trung. Ethereum hỗ trợ các hợp đồng thông minh và trong đó các máy móc sẽ thực hiện các hợp đồng thông minh. Các hợp đồng thông minh lần lượt cho phép ứng dụng phi tập trung thực hiện nhiều hơn một chuyển giao giá trị. Tự động hoá hiệu quả các ứng dụng phi tập trung như chuỗi cung ứng.
 
 Ethereum cho phép nhà phát triển xây dựng các ứng dụng:
@@ -16,7 +17,7 @@ Ethereum cho phép nhà phát triển xây dựng các ứng dụng:
 - Các ứng dụng phi tập trung(DApps Decentralized Application): Các phần mềm triển khai độc lập, không nằm trên một máy chủ duy nhất mà phân tán trên các kho lưu trữ phi tập trung.
 - Các tổ chức tự trị phi tập trung(DAOs Decentralized Autonomous Organizations): Các thành viên có quyền biểu quyết các quyết định quan trọng của DAOs, các thành viên sẽ có phần thưởng khi tham gia vận hành DAOs.
 
-**1. SmartContract** 
+### **1. SmartContract** 
 
 SmartContract là một đoạn mã được triển khai trong node của Blockchain, được bắt đầu bằng một thông điệp được nhúng trong transaction, cho phép giao dịch có thể thực hiện các hoạt động phức tạp hơn. Có thể tạo các điều kiện hay là cần nhiều hơn một ký số để xác nhận giao dịch. EVM(Ethereum Virtual Machine) cung cấp một tầng chạy mã hợp đồng, một SmartContract được viết bằng ngôn ngữ lập trình bậc cao(Solidity, v.v.), xong sau đó dịch sang byte code của EVM, tiếp theo được chạy trên chính EVM. Mỗi node sẽ lưu trữ cùng một mã smartcontract giống nhau trên EVM.
 
@@ -24,9 +25,9 @@ Hợp đồng thông minh là một loại tài khoản trong Ethereum. Điều 
 
 Máy ảo Ethereum (Ethereum Virtual Machine) là nền tảng phần mềm có thể sử dụng để tạo các ứng dụng phi tập trung (DApps) trên Ethereum. Máy ảo này chứa tất cả các tài khoản Ethereum và hợp đồng thông minh. EVM cung cấp một lớp trừu tượng chạy ở bất kỳ đâu cho mã hợp đồng. Một hợp đồng thông minh được viết bằng ngôn ngữ lập trình cấp cao sẽ được dịch sang mã byte EVM và sau đó được triển khai trên máy ảo Ethereum. Mỗi nút sẽ lưu trữ các mã hợp đồng thông minh giống nhau trên EVM.
 
-**2. Cấu trúc ethereum**
+### **2. Cấu trúc ethereum**
 
-![](Aspose.Words.c503d1e0-87a0-4f1b-88f1-fc95a3507a0b.001.png)
+![cấu trúc](https://coin68.com/wp-content/uploads/2018/09/cau-truc-blockchain-cua-ethereum-1536x652.png)
 
 Blockchain là một kiến ​​trúc bao gồm nhiều thành phần và điều làm cho blockchain trở nên độc đáo là cách các thành phần này hoạt động và tương tác với nhau. Một số thành phần quan trọng của Ethereum là Máy ảo Ethereum (EVM), miner (thợ đào), block (khối), transaction (giao dịch), consensus algorithm (cơ chế đồng thuận), account (tài khoản), smart contract (hợp đồng thông minh), mining (hoạt động đào coin), Ether, and gas.
 
@@ -53,7 +54,7 @@ Cấu trúc một khối trong Ethereum bao gồm tiêu đề (header), giao d�
 
 STARTGAS là giá trị đại diện cho số bước tính toán tối đa một giao dịch được cho phép. Giá gas biểu thị chi phí giao dịch mà người gửi phải trả cho việc tính toán.
 
-**3. Các hoạt động cơ bản trong Ethereum blockchain**
+### **3. Các hoạt động cơ bản trong Ethereum blockchain**
 
 Với một giao dịch Ether đơn giản, lượng cần chuyển và địa chỉ đích được chỉ định cùng với phí hay gas point. Số tiền và lệ phí sẽ được chuyển tới tài khoản tương ứng.
 
@@ -61,7 +62,7 @@ Một nút Ethereum là một hệ thống tính toán đại diện cho một d
 
 Khi địa chỉ đích trong giao dịch là một hợp đồng thông minh, mã thực thi tương ứng với hợp đồng thông minh được kích hoạt và thực thi trên EVM. Dữ liệu đầu vào cần thiết cho việc thực thi được tách từ trường payload của giao dịch. Trạng thái của hợp đồng thông minh là giá trị của các biến được định nghĩa bên trong nó. Trạng thái của hợp đồng thông minh có thể được cập nhật bởi việc thực thi này. Kết quả của việc thực thi này được thể hiện trong biên nhận. Ethereum blockchain duy trì cả chuỗi hash của trạng thái và chuỗi hash của biên nhận. Tất cả các giao dịch được tạo ra đều được thẩm định. Thẩm định giao dịch bao gồm việc kiểm tra mốc thời gian và số nonce là đúng và khoản phí cho việc thực thi. Các nút miner trong mạng nhận, xác minh, tập hợp và thực hiện giao dịch. Mã hợp đồng thông minh được thực hiện bởi tất cả các miner. Các giao dịch được thẩm định được phát sóng và tập hợp để tạo block. Giao thức đồng thuận được sử dụng là bằng chứng công việc (proof of work) dựa trên bộ nhớ chứ không phải là dựa trên CPU.
 
-**4. Mô hình khuyến khích(Incentive Model)**
+### **4. Mô hình khuyến khích(Incentive Model)**
 
 Ethereum cũng sử dụng mô hình dựa trên khuyến khích cho việc tạo ra các khối.
 
