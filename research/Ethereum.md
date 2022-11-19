@@ -1,4 +1,4 @@
-﻿**TÌM HIỂU VỀ ETHEREUM BLOCKCHAIN**
+###**TÌM HIỂU VỀ ETHEREUM BLOCKCHAIN**
 
 Ethereum là một mạng blockchain phân tán và sử dụng mã nguồn mở phi tập trung được cung cấp bởi tiền điện tử gốc của nó mang tên Ether (ETH). Nó được sử dụng để thực hiện các giao dịch và tương tác với các ứng dụng được xây dựng trên mạng Ethereum. Các ứng dụng tiềm năng của Ethereum rất phổ biến nhờ vào việc sử dụng các hợp đồng thông minh (smart contract)
 
