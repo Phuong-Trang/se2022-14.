@@ -15,7 +15,7 @@ phổ biến (C#, Java, PHP…)
 - Do tính chất không thể thay đổi thông tin nên trong một số trường hợp nó lại là một nhược điểm. Ví dụ, sau khi hợp đồng được thực hiện nó không thể nâng cấp hay bổ sung các tính năng mới.
 - Ethereum chạy trên công nghệ mã hóa Blockchain nên không thể tự tìm kiếm cà cập nhật thông tin một cách nhanh chóng vào hệ thống ngoại trừ thông qua các hoạt động giao dịch.
 ### Cách thức hoạt động của Solidity
-# Ngôn ngữ lập trình Solidity được sự dụng để tạo hợp đồng thông minh trên Ethereum, cho phép nhiều trường hợp sự dụng khác nhua như:
+#### Ngôn ngữ lập trình Solidity được sự dụng để tạo hợp đồng thông minh trên Ethereum, cho phép nhiều trường hợp sự dụng khác nhua như:
 - Mint các Fungible, Non-Fungible token (NFT).
 - Tạo ra các sàn cho vay phi tập trung cho các Fungible token: Compound Aave,...
 - Tạo ra các thị trường mua bán Non-Fungible token: Opensea, SuperRare,...
