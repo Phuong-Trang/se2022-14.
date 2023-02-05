@@ -30,7 +30,8 @@ Sau khi các developer viết chương trình, một trong những thành phần
 Cung cấp đầy đủ câu lệnh cũng như cú pháp hữu ích cho các nhà phát triển. Nó được coi là bộ công cụ hữu ích nhất mà Solidity mang lại.
 #### Evmdis:
 Công cụ này giúp thực hiện các phép phân tích tĩnh trên bytecode giúp nâng cao mức trừu tượng so với EVM thô.
-## Ví dụ đơn giản một đoạn mã tạo smart contract sự dụng Solidity
+## Ví dụ đơn giản một đoạn mã tạo smart contract sử dụng Solidity
+![alt](https://www.google.com/url?sa=i&url=https%3A%2F%2Fduythanhcse.wordpress.com%2F2021%2F09%2F14%2Fbai-2-tao-va-chay-smart-contract-dau-tien-trong-ethereum-blockchain%2F&psig=AOvVaw1B_g81qUtWSmZCuhoDYoW5&ust=1675688917424000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCms-e5_vwCFQAAAAAdAAAAABAY)
 
 
 
