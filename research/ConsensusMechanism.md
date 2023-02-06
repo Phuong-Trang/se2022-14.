@@ -45,7 +45,14 @@ Một số dự án sử dụng cơ chế này là: **Cosmos (ATOM), EOS (EOS), 
 
 Về cơ bản, PoH không tính toán output từ dữ liệu input, thay vào đó PoH sử dụng một tính năng để sử dụng các output đã có trước đó làm input. Cơ chế này được xây dựng để giải quyết vấn đề về thời gian trong các mạng phi tập trung ở nơi không có cùng mốc thời gian.
 
-### Proof of Authority (PoA) - bằng chứng ủy quyền
+### Byzantine Fault Tolerance (BFT) - Hệ thống chịu lỗi Byzantine
+Là hệ thống có thể giải quyết được vấn đề bài toán Byzantine. Nghĩa là hệ thống BFT có thể tiếp tục hoạt động ngay cả khi một số node bị lỗi hoặc thực hiện hành động gây hại cho mạng chung.
 
+Thuật toán này cho phép thực hiện xác minh quản lý mỗi trạng thái của một chuỗi, đồng thời chia sẻ các thông điệp với một chuỗi khác, để có được những bản ghi giao dịch chính xác và đảm bảo sự trung thực.
+
+Một số dự án sử dụng thuật toán này: **NEO (NEO), Ripple (XRP), Stellar (XLM)...**
+
+### Các loại thuật toán đồng thuận khác
+Vài thuật toán đồng thuận khác như **Proof of Contribution (PoC),Proof of Authority (PoA), Proof of Location (PoL), Proof of Burn (PoB), Proof of Zero (PoZ), Proof of Weight (PoWeight), Direct Acyclic Graph Tangle (DAG),...**
 
 
