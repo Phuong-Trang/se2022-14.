@@ -19,7 +19,7 @@ Ethereum cho phép nhà phát triển xây dựng các ứng dụng:
 
 ### **1. SmartContract** 
 
-SmartContract là một đoạn mã được triển khai trong node của Blockchain, được bắt đầu bằng một thông điệp được nhúng trong transaction, cho phép giao dịch có thể thực hiện các hoạt động phức tạp hơn. Có thể tạo các điều kiện hay là cần nhiều hơn một ký số để xác nhận giao dịch. EVM(Ethereum Virtual Machine) cung cấp một tầng chạy mã hợp đồng, một SmartContract được viết bằng ngôn ngữ lập trình bậc cao(Solidity, v.v.), xong sau đó dịch sang byte code của EVM, tiếp theo được chạy trên chính EVM. Mỗi node sẽ lưu trữ cùng một mã smartcontract giống nhau trên EVM.
+&emsp; SmartContract là một đoạn mã được triển khai trong node của Blockchain, được bắt đầu bằng một thông điệp được nhúng trong transaction, cho phép giao dịch có thể thực hiện các hoạt động phức tạp hơn. Có thể tạo các điều kiện hay là cần nhiều hơn một ký số để xác nhận giao dịch. EVM(Ethereum Virtual Machine) cung cấp một tầng chạy mã hợp đồng, một SmartContract được viết bằng ngôn ngữ lập trình bậc cao(Solidity, v.v.), xong sau đó dịch sang byte code của EVM, tiếp theo được chạy trên chính EVM. Mỗi node sẽ lưu trữ cùng một mã smartcontract giống nhau trên EVM.
 
 Hợp đồng thông minh là một loại tài khoản trong Ethereum. Điều này có nghĩa là chúng có một số dư và có thể gửi các giao dịch trong mạng. Tài khoản người dùng có thể tương tác với hợp đồng thông minh bằng cách gửi các giao dịch thực hiện một chức năng được xác định trên hợp đồng thông minh. Hợp đồng thông minh có thể xác định các quy tắc, giống như một hợp đồng thông thường và tự động thực thi chúng thông qua mã. Hợp đồng thông minh không thể bị xóa theo mặc định và các tương tác với chúng là không thể thay đổi.
 
