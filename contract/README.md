@@ -1,4 +1,5 @@
-# SMART CONTRACT
+# SMART CONTRACT AND SOLIDITY
+# 1. SMARTCONTRACT
 ## Smart Contract là gì?
 Smart Contract (hay Hợp đồng thông minh) là các chương trình chạy trên blockchain. Hợp đồng thông minh cũng giống như một hợp đồng kỹ thuật số bị bắt buộc thực hiện bởi một bộ quy tắc cụ thể. Các quy tắc này do bộ mã máy tính xác định trước mà tất cả các nút (node) trong mạng đều phải sao chép và thực thi các quy tắc đó. 
 
@@ -36,7 +37,7 @@ Smart Contract đang được ứng dụng trong rất nhiều lĩnh vực. Nhi�
 - Kết nối nhà bán lẻ và nhà cung cấp: Những tranh chấp giữa nhà cung cấp và nhà bán lẻ có thể được giải quyết nhanh chóng thông qua Smart Contract. Công ty Home Depot là một ví dụ. Công ty đã áp dụng hợp đồng thông minh trong giao dịch với nhà cung cấp. Nhờ đó, họ minh bạch hóa thỏa thuận, rút ngắn thời gian và xây dựng được liên hệ bền vững hơn với bên cung cấp.
 - Ứng dụng trong giao dịch tiền kỹ thuật số: Smart Contract giúp việc giao dịch tiền ảo trở nên mượt mà, tránh can thiệp của bên thứ ba. Nhờ đó, việc trao đổi tránh được vấn đề gian lận, bảo mật kém. Đồng thời nó giúp hạn chế những rắc rối về pháp lý. Sự ra đời của hợp đồng thông minh đã giúp quá trình mua bán tiền kỹ thuật số diễn ra nhanh chóng và tốn ít nhân lực hơn.
 
-# SOLIDITY
+# 2. SOLIDITY
 ## Solidity là  gì?
 Solidity là một ngôn ngữ lập trình cấp cao, đối tượng sử dụng của ngôn ngữ Solidity là những lập trình viên muốn phát triển các ứng dụng trên Ethereum.
 
