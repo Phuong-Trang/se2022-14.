@@ -29,8 +29,6 @@ Ethereum cho phép nhà phát triển xây dựng các ứng dụng:
 
 ![cấu trúc](https://coin68.com/wp-content/uploads/2018/09/cau-truc-blockchain-cua-ethereum-1536x652.png)
 
-![cấu trúc](https://drive.google.com/file/d/1q7chq_L-mNGm5IfmiKWQn1XKvjUUUu6u/view?usp=sharing)
-
 &emsp; Blockchain là một kiến ​​trúc bao gồm nhiều thành phần và điều làm cho blockchain trở nên độc đáo là cách các thành phần này hoạt động và tương tác với nhau. Một số thành phần quan trọng của Ethereum là Máy ảo Ethereum (EVM), miner (thợ đào), block (khối), transaction (giao dịch), consensus algorithm (cơ chế đồng thuận), account (tài khoản), smart contract (hợp đồng thông minh), mining (hoạt động đào coin), Ether, and gas.
 
 - Mining node: Các cụm máy tính thực hiện duy trì mạng lưới của máy tính, tương tự như các Server hiện nay.
