@@ -37,35 +37,38 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         return 18;
     }
 
-   
+    //Trả về tổng số lượng token được phát hành
     function totalSupply() public view virtual override returns (uint256) {
         return _totalSupply;
     }
 
+    //Số dư của Token trong một tài khoản hoặc một ví đang có
     function balanceOf(address account) public view virtual override returns (uint256) {
         return _balances[account];
     }
 
-  
-    function transfer(address to, uint256 amount) public virtual override returns (bool) {
-        address owner = _msgSender();
-        _transfer(owner, to, amount);
-        return true;
-    }
-
-  
+    //cho phép kiểm tra số dư của người dùng. 
+    //Trong trường hợp bạn cấp quyền cho một địa chỉ ví nào đó quản lý số token của bạn thì khi sử dụng hàm allowance, 
+    //bạn sẽ kiểm tra được số dư có thể rút và số dư còn lại đó sẽ được hoàn lại vào ví của bạn.
     function allowance(address owner, address spender) public view virtual override returns (uint256) {
         return _allowances[owner][spender];
     }
 
- 
+    //Giới hạn số lượng token mà một smart contract có thể rút từ balance 
     function approve(address spender, uint256 amount) public virtual override returns (bool) {
         address owner = _msgSender();
         _approve(owner, spender, amount);
         return true;
     }
 
-    
+    //Chuyển Token từ ví của bạn sang ví của người dùng khác bằng cách cung cấp địa chỉ của người nhận và số Token cần gửi
+    function transfer(address to, uint256 amount) public virtual override returns (bool) {
+        address owner = _msgSender();
+        _transfer(owner, to, amount);
+        return true;
+    }
+
+    //Quy tắc này khá tương đồng với Transfer nhưng tiện dụng hơn với tính năng cho phép bạn ủy quyền cho ai đó chuyển Token thay bạn
     function transferFrom(
         address from,
         address to,
@@ -82,7 +85,6 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         _approve(owner, spender, allowance(owner, spender) + addedValue);
         return true;
     }
-
 
     function decreaseAllowance(address spender, uint256 subtractedValue) public virtual returns (bool) {
         address owner = _msgSender();

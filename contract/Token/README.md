@@ -1,0 +1,1 @@
+**ERC20 (Ethereum Request for Comment)** được hiểu là một bộ tiêu chuẩn dành cho các token được thiết kế và phát triển trên công nghệ blockchain của Ethereum. Các nhà phát hành token phải tuân theo bộ quy tắc này nếu muốn các token dưới dạng ERC20 hoạt động liền mạng trong Ethereum. Để thực hiện được điều này, nhà phát hành cũng cần đến sự giúp đỡ của các smart contracts.

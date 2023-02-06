@@ -44,23 +44,20 @@ contract ERC721 is Context, ERC165, IERC721, IERC721Metadata {
             interfaceId == type(IERC721Metadata).interfaceId ||
             super.supportsInterface(interfaceId);
     }
-
-    
+    //Số dư trong ví
     function balanceOf(address owner) public view virtual override returns (uint256) {
         require(owner != address(0), "ERC721: address zero is not a valid owner");
         return _balances[owner];
     }
 
-    
+    //Hàm này trả về địa chỉ của chủ sở hữu token
     function ownerOf(uint256 tokenId) public view virtual override returns (address) {
         address owner = _ownerOf(tokenId);
         require(owner != address(0), "ERC721: invalid token ID");
         return owner;
     }
 
-    /**
-     * @dev See {IERC721Metadata-name}.
-     */
+    
     function name() public view virtual override returns (string memory) {
         return _name;
     }
@@ -83,6 +80,7 @@ contract ERC721 is Context, ERC165, IERC721, IERC721Metadata {
         return "";
     }
 
+    //Hàm này phê duyệt hoặc cấp quyền cho một địa chị khác để chuyển token thay mặt cho chủ sở hữu
     function approve(address to, uint256 tokenId) public virtual override {
         address owner = ERC721.ownerOf(tokenId);
         require(to != owner, "ERC721: approval to current owner");
