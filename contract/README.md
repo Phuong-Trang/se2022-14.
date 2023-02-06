@@ -1,4 +1,4 @@
-# SMART CONTRACT AND SOLIDITY
+# SMARTCONTRACT AND SOLIDITY
 # 1. SMARTCONTRACT
 ## Smart Contract là gì?
 Smart Contract (hay Hợp đồng thông minh) là các chương trình chạy trên blockchain. Hợp đồng thông minh cũng giống như một hợp đồng kỹ thuật số bị bắt buộc thực hiện bởi một bộ quy tắc cụ thể. Các quy tắc này do bộ mã máy tính xác định trước mà tất cả các nút (node) trong mạng đều phải sao chép và thực thi các quy tắc đó. 
