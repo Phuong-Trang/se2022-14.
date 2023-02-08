@@ -40,10 +40,15 @@ Ngoài ra, DPoS có số lượng validator có giới hạn, thường khoảng
 Một số dự án sử dụng cơ chế này là: **Cosmos (ATOM), EOS (EOS), Tron (TRX)...**
 ### Proof of Authority (PoA)
 Là một biến thể của cơ chế đồng thuận Proof of Stake, trong đó thuật toán đề cao giá trị của danh tính & danh tiếng của những người tham gia, chứ không dựa trên giá trị token mà họ nắm giữ.
+
 Proof of Authority có số lượng validator (trình xác thực) giới hạn, vì vậy thuật toán này giúp cho các blockchain có khả năng mở rộng cao hơn. Các block và giao dịch được kiểm duyệt bởi các validator đáng tin cậy hơn vì PoA sở hữu các node có danh tích đã được xác thực.
+
 Nhiệm vụ của các validator là khởi chạy ứng dụng để tiếp nhận yêu cầu giao dịch vào block. Nhưng vì mô hình PoA tự động hoàn toàn, nên các validator không cần phải liên tục theo dõi máy tính để cập nhật. Tuy nhiên, máy tính và trang web quản trị luôn phải được duy trì trong trạng thái hoạt động.
+
 Đầu tiên, hệ thống sẽ chọn ngẫu nhiên một validator để xác thực giao dịch và tạo khối mới cho nền tảng blockchain. Validator này sẽ phụ thuộc vào hệ thống bỏ phiếu của validator được ủy quyền trước đó.
+
 Sau đó các validator sẽ xác thực các giao dịch diễn ra trong blockchain, sau khi xác thực thành công họ sẽ nhận phần thưởng được trích từ phí giao dịch.
+
 Mặt khác, nếu validator không thể đảm bảo các giao dịch trong hệ thống được diễn ra suôn sẻ hoặc gây hại cho mạng lưới thì danh tiếng của họ sẽ bị đánh giá thấp. Đồng thời, hệ thống sẽ loại bỏ vĩnh viễn quyền xác thực của họ.
 
 ### Proof of History (PoH)
