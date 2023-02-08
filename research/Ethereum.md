@@ -1,6 +1,6 @@
 ## **TÌM HIỂU VỀ ETHEREUM BLOCKCHAIN**
 
-&emsp; Ethereum là một mạng blockchain phân tán và sử dụng mã nguồn mở phi tập trung được cung cấp bởi tiền điện tử gốc của nó mang tên Ether (ETH). Nó được sử dụng để thực hiện các giao dịch và tương tác với các ứng dụng được xây dựng trên mạng Ethereum. Các ứng dụng tiềm năng của Ethereum rất phổ biến nhờ vào việc sử dụng các hợp đồng thông minh (smart contract)
+&emsp; Ethereum là một nền tảng mã nguồn mở dựa trên công nghệ blockchain cho phép các nhà phát triển xây dựng và triển khai các ứng dụng và hợp đồng thông minh hoạt động trên nền tảng blockchain. Mạng lưới Ethereum sử dụng đồng coin “Ether” hoạt động với tư cách tiền tệ của mạng lưới. Ether được trao đổi như một cách thức chi trả cho việc vận hành các ứng dụng phi tập trung trên mạng lưới. Đồng Ether cũng là tiền ảo lớn thứ hai thế giới vì giá trị vốn hóa thị trường đứng sau Bitcoin.
 
 ### **So sánh giữa Bitcoin và Ethereum**
 
