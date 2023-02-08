@@ -1,9 +1,15 @@
-### Giới thiệu về Cosmos
-Cosmos là một mạng lưới phi tập trung gồm các blockchain song song độc lập, mỗi blockchain được cung cấp bởi các thuật toán đồng thuật BFT như đồng thuật Tendermint.
+### Layer0 trong Blockchain
+Layer 0 là tầng cơ sở dữ liệu của một mạng blockchain. Nó là nền tảng mà tất cả các tầng khác của stack blockchain được xây dựng, và nó cung cấp cơ sở hạ tầng cần thiết cho việc chuyển dữ liệu an toàn và hiệu quả trên mạng.
 
-Hay Cosmos là một hệ sinh thái gồm các blockchain có thể mở rộng quy mô và tương tác với nhau. Trước Cosmos, các blockchains đã bị chặn và không thể giao tiếp với nhau.
-Chúng rất khó xây dựng và chỉ có thể xử lý một lượng nhỏ giao dịch mỗi giây.
-Cosmos giải quyết những vấn đề này bằng một tầm nhìn kỹ thuật mới. Để hiểu được tầm nhìn này, chúng ta cần quay lại các nguyên tắc cơ bản của công nghệ blockchain.
+Chức năng chính của Layer 0 là đảm bảo an toàn và tăng trưởng của blockchain, và nó chịu trách nhiệm các nhiệm vụ như quản lý đồng thuận, xử lý giao dịch và lưu trữ dữ liệu trên mạng. Layer 0 thường được coi là tầng quan trọng nhất của stack blockchain, bởi bất kỳ lỗ hổng hoặc vấn đề nào tại tầng này có thể gây hại cho toàn bộ hệ thống.
+### Giới thiệu về Cosmos
+Cosmos là một Blockchain Layer-0, phát triển để trở thành Internet of Blockchain. Cosmos sinh ra để giải quyết 3 vấn đề của Blockchain hiện nay:
+
+Khả năng mở rộng: Ethereum hiện tại quá chậm. Cosmos đưa ra cách giải quyết là tạo ra các Zone (các blockchain nhỏ khác) dựa trên Cosmos SDK.
+
+Độ hiệu dụng: Ở Ethereum, fork EVM là ra y chang EVM. Ở Cosmos, với Cosmos SDK, dự án có thể built theo nhiều hướng tùy chọn ⇒ Phù hợp phát triển App Chain.
+
+Khả năng tương tác: Các Blockchain không thể tương tác với nhau thuận lợi vì phải tạo quá nhiều cầu nối đơn lẻ. Cosmos tạo 1 cầu nối IBC ⇒ Kết nối tất cả.
 
 ### ComosSDK là gì?
 Cosmos SDK là một công cụ phát triển được thiết kế để giúp tạo ra các blockchains SDK Cosmos một cách dễ dàng và nhanh chóng. Người dùng có thể nhanh chóng tạo ra một khối chuỗi. Tuy nhiên, cần rất nhiều thời gian để xây dựng cơ bản khối chuỗi thành bất kỳ công cụ nào có thể hoạt động trên ứng dụng. 
