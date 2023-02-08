@@ -35,6 +35,8 @@ Một số công cụ giúp cho bạn trong việc code và deloy token
 
 &emsp; Bạn cần viết code sử dụng ngôn ngữ Solidity, để tạo ra một token. Bạn có thể sử dụng các tài liệu hướng dẫn và các mẫu code để giúp bắt đầu.
 > Một số tài liệu như Openzeppelin, Hardhat
+>- [Docs hardhat](https://hardhat.org/docs)
+>- [Docs Openzeppelin ](https://docs.openzeppelin.com/)
 
 ### 2.6 Deploy đồng tiền điện tử
 &emsp; Sau khi viết xong mã, bạn cần deploy đồng tiền điện tử lên nền tảng bằng trình quản lý ví của mình. Bạn sẽ cần phải trả phí cho việc deploy, giá của chúng tùy thuộc vào mạng blockchain mà bạn chọn.
