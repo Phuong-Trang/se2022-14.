@@ -1,4 +1,4 @@
-# QUY TRÌNH RELEASE MỘT MÃ TIỀN ĐIỆN TỬ DỰA TRÊN ETHEREUM
+# QUY TRÌNH RELEASE MỘT MÃ TIỀN ĐIỆN TỬ
 ## 1. Phân biệt coin và token
 &emsp; Tiền điện tử có thể được chia thành hai loại: các coin và các token. Các đồng coin thì có blockchain riêng của chúng, chẳng hạn như Bitcoin. Ether (ETH) có blockchain Ethereum. Những đồng coin thường có một tiện ích cụ thể trên toàn bộ mạng lưới của chúng, như thanh toán phí giao dịch, stake hoặc tham gia quản trị.
 
