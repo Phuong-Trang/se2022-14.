@@ -4,7 +4,7 @@
 
 &emsp; Còn các token thì được xây dựng trên những blockchain đã có từ trước. Chúng cũng có thể có một số vai trò tương tự như các đồng coin, nhưng các token chủ yếu chỉ có tiện ích trong các dự án của riêng chúng.
 
-> Việc tạo ra 1 đồng coin phức tạp hơn nhiều so với việc tạo 1 token đòi hỏi bạn phải phát triển và duy trì thành công một blockchain của riêng mình. Nên trong bài này chúng ta sẽ đề cập tới việc tạo ra 1 token.
+> &emsp; Việc tạo ra 1 đồng coin phức tạp hơn nhiều so với việc tạo 1 token đòi hỏi bạn phải phát triển và duy trì thành công một blockchain của riêng mình. Nên trong bài này chúng ta sẽ đề cập tới việc tạo ra 1 token.
 
 ## 2. Các bước cơ bản để tạo ra một token
 
