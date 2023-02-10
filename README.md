@@ -24,6 +24,7 @@
 > **Smart Contract** là các chương trình chạy trên blockchain. Hợp đồng thông minh cũng giống như một hợp đồng kỹ thuật số bị bắt buộc thực hiện bởi một bộ quy tắc cụ thể. Các quy tắc này do bộ mã máy tính xác định trước mà tất cả các nút (node) trong mạng đều phải sao chép và thực thi các quy tắc đó.
 
 ##### 
+- Tìm hiểu về quy trình release một mã tiền điện tử 
 - Tìm hiểu về Smart Contract và cách triển khai 
 - Tìm hiểu về ngôn ngữ Solidity 
 
