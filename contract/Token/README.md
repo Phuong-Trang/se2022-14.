@@ -36,7 +36,7 @@ Sau khi đã transact thành công thì màn hình sẽ hiển thị được c�
 Như vậy ta đã có 100000 token trong ví. Sau đây ta sẽ sử dụng function transfer để giao dịch tới tài khoản khác một lượng amount token. Mỗi lần ta thực hiện 1 transaction nào đó thì ví metamask sẽ yêu cầu xác nhận:
 
 <p align="center">
-  <img src="/png/11.png" width="500" title="hover text">
+  <img src="/png/11.png" width="300" title="hover text">
 </p>
 
 Sau khi confirmed thành công tức là giao dịch đã thành công. Để theo dõi chi tiết giao dịch của chúng ta thì mình sẽ xem trên etherscan:
