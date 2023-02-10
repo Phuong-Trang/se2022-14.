@@ -15,7 +15,7 @@ Tiếp theo sẽ dùng chức năng compile của REMIX IDE để compile file s
   <img src="/png/7.png" width="500" title="hover text">
 </p>
 
-Ta sẽ chọn evironment là Metamask để kết nối tới ví, sau khi kết nối thành công màn hình sẽ hiển thị tài khoản kèm với số dư của ví. Ví ở đây mình sẽ sử dụng mạng thử nghiệm là Goerli. 
+Ta sẽ chọn environment là Metamask để kết nối tới ví, sau khi kết nối thành công màn hình sẽ hiển thị tài khoản kèm với số dư của ví. Ví ở đây mình sẽ sử dụng mạng thử nghiệm là Goerli. 
 
 <p align="center">
   <img src="/png/8.png" width="500" title="hover text">
