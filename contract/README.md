@@ -75,15 +75,18 @@ Khai báo: pragma solidity ….
 
 **4. Cấu trúc struct**
 Trong kiểu dữ liệu này sẽ có nhiều thuộc tính
+
 **5. Cấu trúc mảng**
 Có 2 loại mảng:
 Mảng cố định: vd uint [2] array
 Mảng động: vd uint []array
 Cũng có thể tạo 1 mảng cấu trúc
+
 **6. Khai báo hàm** 
 function tên hàm (tham số truyền vào) public (có thể có returns) {
 }
 Các biến được khai báo trong bộ nhớ là biến tham chiếu: Mảng, cấu trúc, ánh xạ, chuỗi
+
 **7. Giá trị trả về của hàm và công cụ sửa đổi hàm**
 + Khai báo hàm với từ khoá “returns”
 VD: function ten_function public returns (string memory){
@@ -93,10 +96,12 @@ Giá trị trả về là 1 chuỗi
 + Trường hợp hàm chúng ta chỉ cho xem chứ không thể thay đổi dữ liệu thì chúng ta dùng từ khoá “view”
 VD: function ten_function view returns (...){..}
 Hàm không truy cập bất cứ dữ liệu nào trong ứng dụng ta dùng từ khoá “pure”
+
 **8. Hàm băm Keccak 256** 
 + Ethereum có tích hợp hàm băm keccak256, đây là một phiên bản của SHA3. Một hàm băm về cơ bản ánh xạ đầu vào thành một số thập lục phân 256 bit ngẫu nhiên. Một thay đổi nhỏ trong đầu vào sẽ gây ra sự thay đổi lớn trong hàm băm.
 Keccak256 có một tham số duy nhất kiểu byte. Điều này có nghĩa là chúng ta phải "đóng gói" tham số thành byte trước khi gọi keccak256:
 keccak256(abi.encodePacked("....."));
+
 **9. Events**
 Events - Sự kiện là một cách để hợp đồng của bạn thông báo rằng điều gì đó đã xảy ra trên blockchain đến giao diện người dùng của ứng dụng, có thể 'lắng nghe các sự kiện và thực hiện hành động khi chúng xảy ra
 // Khai báo sự kiện
@@ -107,8 +112,10 @@ code….
   // kich hoat su kien cho ung dung dapp biet ham nay dang duoc chay
   emit tên_sự_kiện(tham số);
 }
+
 **10. Address - Địa chỉ của ví**
 Blockchain Ethereum có các tài khoản, bạn có thể coi nó giống như tài khoản ngân hàng. Một tài khoản có số dư Ether (đơn vị tiền tệ được sử dụng trên chuỗi khối Ethereum) và bạn có thể gửi và nhận các khoản thanh toán bằng Ether đến các tài khoản khác, giống như tài khoản ngân hàng của bạn có thể chuyển tiền đến các tài khoản ngân hàng khác.
+
 **11. Mapping**
 mapping (address => uint) public accountBalance;
 Mapping là một cách khác để lưu trữ dữ liệu có tổ chức trong Solidity.
@@ -116,18 +123,23 @@ Mapping là một cách khác để lưu trữ dữ liệu có tổ chức trong
 mapping (uint => string) userIdToName;
 
 Ánh xạ về cơ bản là một kho khóa-giá trị để lưu trữ và tra cứu dữ liệu. Trong ví dụ đầu tiên, khóa là một địa chỉ và giá trị là một uint và trong ví dụ thứ hai, khóa là một uint và giá trị là một chuỗi
+
 **12. msg.sender**
 Trong Solidity, có một số biến toàn cục có sẵn cho tất cả các hàm. Một trong số đó là msg.sender, nó chính là địa chỉ của người (hoặc hợp đồng thông minh) đã gọi hàm hiện tại.
 Lưu ý: Trong Solidity, việc thực thi hàm luôn cần bắt đầu với một trình gọi bên ngoài. Một hợp đồng sẽ chỉ ngồi trên blockchain không làm gì cả cho đến khi ai đó gọi đến nó (sử dụng một trong các chức năng của nó). Vì vậy, sẽ luôn có một msg.sender.
 Sử dụng msg.sender cung cấp  sự bảo mật của chuỗi khối Ethereum - cách duy nhất ai đó có thể sửa đổi dữ liệu của người khác là đánh cắp khóa riêng được liên kết với địa chỉ Ethereum của họ.
+
 **13. Require**
 Require làm cho hàm một yêu cầu và tạo ra một lỗi ngừng thực thi nếu một số điều kiện không thoả mãn
+
 **14. Storage & Memory**
 Trong Solidity, có hai vị trí bạn có thể lưu trữ các biến - trong bộ lưu trữ Storage và trong bộ nhớ Memory.
 Storage trỏ đến các biến được lưu trữ vĩnh viễn trên blockchain. Memory là các biến là tạm thời và bị xóa giữa các lệnh gọi hàm. Có thể hình dung nó giống như lưu trữ dữ liệu trong ổ đĩa cứng và RAM.
+
 **15. Tính kế thừa**
  Khai báo:
 contract hơp_đồng_con is hợp_đồng_cha
+
 **16. Tương tác với các hợp đồng khác**
 Để các hợp đồng tương tác với nhau thì ta xây dựng 1 hợp đồng interface mà trong đó khai báo những hàm của hợp đồng mà chúng ta muốn tương tác
 
