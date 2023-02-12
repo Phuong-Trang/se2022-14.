@@ -18,7 +18,7 @@
 - Tìm hiểu về Blockchain (khái niệm, cấu trúc, cách hoạt động)
 - Tìm hiểu về các phương thức đồng bộ trong Blockchain  
 - Tìm hiểu về Cosmos SDK
-- Tìm hiểu về 3 loại tiền điện tử: Ethereum, BSC, Solana
+- Tìm hiểu về 3 nền tảng ứng dụng công nghệ Blockchain: Ethereum, BSC, Solana
 
 #### B. Thực hành ứng dụng (folder [contract](https://github.com/Phuong-Trang/se2022-14.1/tree/main/contract)) 
 > **Smart Contract** là các chương trình chạy trên blockchain. Hợp đồng thông minh cũng giống như một hợp đồng kỹ thuật số bị bắt buộc thực hiện bởi một bộ quy tắc cụ thể. Các quy tắc này do bộ mã máy tính xác định trước mà tất cả các nút (node) trong mạng đều phải sao chép và thực thi các quy tắc đó.
