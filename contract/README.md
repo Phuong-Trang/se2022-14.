@@ -63,15 +63,16 @@ Sau khi các developer viết chương trình, một trong những thành phần
 Ở cấp độ cao hơn, Solidity cho phép nhà phát triển ra các "machine level" code có thể thực thi được trên EVM. Sau đó, trình biên dịch chia nhỏ các dòng code mà lập trình viên viết, sẽ biến thành các lệnh mà bộ xử lý có thể hiểu được và thực thi nó.
 ## Cách sử dụng và tính chất trong Solidity
 **1. Contract**
-
 Mã của Solidity được gói gọn trong các hợp đồng Contract. Hợp đồng là khối code cơ bản của các ứng dụng Ethereum - tất cả các biến và hàm đều thuộc một hợp đồng 
-**2. Phiên bản pragma**
 
+**2. Phiên bản pragma**
 Khai báo phiên bản trình biên dịch mà mình đang sử dụng
 Khai báo: pragma solidity ….
+
 **3. State Variables & Integers**
 + Các biến trạng thái được lưu trữ vĩnh viễn trong hợp đồng, chúng được lưu vào blockchain ethereum
 + Số nguyên không dấu uint: giá trị của nó phải không âm
+
 **4. Cấu trúc struct**
 Trong kiểu dữ liệu này sẽ có nhiều thuộc tính
 **5. Cấu trúc mảng**
