@@ -1,7 +1,7 @@
 # SE2022-14.1
 >***Đề tài: Tìm hiểu về blockchain, quy trình release một mã tiền điện tử dựa trên Ethereum hoặc BSC, demo thử nghiệm tạo contract của 1 đồng tiền, minting NFT và kết nối ví.***
 
-### VIDEO DEMO: [KẾT NỐI VÍ, MINTING NFT, TẠO CONTRACT](https://drive.google.com/file/d/1wTNkkqexnMYX73AM7mVUoxzXY6dEGDy1/view?usp=sharing)
+### VIDEO DEMO: [KẾT NỐI VÍ, MINTING NFT, TẠO CONTRACT](https://drive.google.com/file/d/1M5OLmHaSG8hHEha9ZCqBQI32i0Uh0f9N/view?usp=sharing)
 ![Hình cover đề tài](https://github.com/Phuong-Trang/MyPortfolio/blob/master/Screenshot%20(1).png)
 :exclamation: **SET UP**
 - **Sử dụng [Remix - Ethereum IDE](https://remix.ethereum.org/)**
