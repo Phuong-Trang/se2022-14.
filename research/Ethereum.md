@@ -3,6 +3,16 @@
 &emsp; Ethereum là một nền tảng mã nguồn mở dựa trên công nghệ blockchain cho phép các nhà phát triển xây dựng và triển khai các ứng dụng và hợp đồng thông minh hoạt động trên nền tảng blockchain. Mạng lưới Ethereum sử dụng đồng coin “Ether” hoạt động với tư cách tiền tệ của mạng lưới. Ether được trao đổi như một cách thức chi trả cho việc vận hành các ứng dụng phi tập trung trên mạng lưới. Đồng Ether cũng là tiền ảo lớn thứ hai thế giới vì giá trị vốn hóa thị trường đứng sau Bitcoin.
 
 ### **So sánh giữa Bitcoin và Ethereum**
+&emsp; Bitcoin và Ethereum tương đối giống nhau vì được phát triển trên nền tảng công nghệ blockchain. Điểm khác biệt lớn nhất giữa hai đồng tiền điện tử này là mục đích sử dụng và công nghệ cốt lõi của chúng.
+
+Với Ethereum, đồng tiền này được tạo ra để trở thành một nền tảng cho việc phát triển Smart Contract và các dApps .
+Còn mục đích sử dụng của Bitcoin là trở thành một loại tiền tệ, một phương thức thanh toán và nơi lưu giữ giá trị.
+
+Trong khi Bitcoin chỉ có thể đào được 21 triệu BTC, còn ETH có thể đào được vô tận.
+
+Ngoài ra, nên tảng Ethereum cũng có những ưu điểm hơn so với Bitcoin như:
++ Tốc độ giao dịch nhanh hơn Bitcoin
++ Phí giao dịch rẻ hơn Bitcoin
 
 |**Bitcoin**|**Ethereum**|
 | ------ | ------ |
@@ -29,7 +39,7 @@ Ethereum cho phép nhà phát triển xây dựng các ứng dụng:
 
 ![cấu trúc](https://coin68.com/wp-content/uploads/2018/09/cau-truc-blockchain-cua-ethereum-1536x652.png)
 
-&emsp; Blockchain là một kiến ​​trúc bao gồm nhiều thành phần và điều làm cho blockchain trở nên độc đáo là cách các thành phần này hoạt động và tương tác với nhau. Một số thành phần quan trọng của Ethereum là Máy ảo Ethereum (EVM), miner (thợ đào), block (khối), transaction (giao dịch), consensus algorithm (cơ chế đồng thuận), account (tài khoản), smart contract (hợp đồng thông minh), mining (hoạt động đào coin), Ether, and gas.
+&emsp; Blockchain là một kiến trúc bao gồm nhiều thành phần và điều làm cho blockchain trở nên độc đáo là cách các thành phần này hoạt động và tương tác với nhau. Một số thành phần quan trọng của Ethereum là Máy ảo Ethereum (EVM), miner (thợ đào), block (khối), transaction (giao dịch), consensus algorithm (cơ chế đồng thuận), account (tài khoản), smart contract (hợp đồng thông minh), mining (hoạt động đào coin), Ether, and gas.
 
 - Mining node: Các cụm máy tính thực hiện duy trì mạng lưới của máy tính, tương tự như các Server hiện nay.
 - EVM Node: Tổ hợp cụm máy tính chạy các hợp đồng thông minh tương tác với mạng lưới cốt lõi của Ethereum.
@@ -41,8 +51,6 @@ Ethereum cho phép nhà phát triển xây dựng các ứng dụng:
 - Gas: Phí giao dịch sử dụng khi người dùng gửi đi một giao dịch
 
 &emsp; Một mạng blockchain bao gồm nhiều Node thuộc về các thợ đào (miner) và một số node không phải của thợ đào nhưng giúp thực hiện các hợp đồng và giao dịch thông minh chúng được gọi là EVM. Mỗi node được kết nối với một node khác trên mạng. Các node này sử dụng giao thức ngang hàng để giao tiếp với nhau.
-
-&emsp; Trạng thái của Bitcoin blockchain được quyết định bởi trạng thái của UTXO và một tham chiếu cài đặt của ứng dụng ví, thứ lưu giữ tham chiếu tài khoản. Ethereum giới thiệu khái niệm tài khoản như một phần của giao thức một cách chính thức. Tài khoản là nguồn gốc và đích của một giao dịch. Một giao dịch trực tiếp cập nhật số dư tài khoản thay vì duy trì trạng thái như UTXO trong Bitcoin. Nó cho phép truyền tải các giá trị,thông điệp và dữ liệu giữa các tài khoản có thể dẫn đến việc chuyển đổi trạng thái. Các chuyển khoản này được thực hiện bằng cách sử dụng giao dịch.
 
 Có hai loại tài khoản trong Ethereum:
 
@@ -60,7 +68,7 @@ Có hai loại tài khoản trong Ethereum:
 
 &emsp; Một nút Ethereum là một hệ thống tính toán đại diện cho một doanh nghiệp hoặc thành viên cá nhân. Một nút đầy đủ Ethereum gồm phần mềm cần thiết cho việc khởi phát giao dịch, thẩm định, khai thác, tạo block, thực thi hợp đồng thông minh và máy ảo Ethereum (EVM). Hợp đồng thông minh được thiết kế, phát triển, biên dịch và triển khai trên EVM, có thể có nhiều hơn một hợp đồng thông minh trên một EVM.
 
-&emsp; Khi địa chỉ đích trong giao dịch là một hợp đồng thông minh, mã thực thi tương ứng với hợp đồng thông minh được kích hoạt và thực thi trên EVM. Dữ liệu đầu vào cần thiết cho việc thực thi được tách từ trường payload của giao dịch. Trạng thái của hợp đồng thông minh là giá trị của các biến được định nghĩa bên trong nó. Trạng thái của hợp đồng thông minh có thể được cập nhật bởi việc thực thi này. Kết quả của việc thực thi này được thể hiện trong biên nhận. Ethereum blockchain duy trì cả chuỗi hash của trạng thái và chuỗi hash của biên nhận. Tất cả các giao dịch được tạo ra đều được thẩm định. Thẩm định giao dịch bao gồm việc kiểm tra mốc thời gian và số nonce là đúng và khoản phí cho việc thực thi. Các nút miner trong mạng nhận, xác minh, tập hợp và thực hiện giao dịch. Mã hợp đồng thông minh được thực hiện bởi tất cả các miner. Các giao dịch được thẩm định được phát sóng và tập hợp để tạo block. Giao thức đồng thuận được sử dụng là bằng chứng công việc (proof of work) dựa trên bộ nhớ chứ không phải là dựa trên CPU.
+&emsp; Khi địa chỉ đích trong giao dịch là một hợp đồng thông minh, mã thực thi tương ứng với hợp đồng thông minh được kích hoạt và thực thi trên EVM. Dữ liệu đầu vào cần thiết cho việc thực thi được tách từ trường payload của giao dịch. Trạng thái của hợp đồng thông minh là giá trị của các biến được định nghĩa bên trong nó. Trạng thái của hợp đồng thông minh có thể được cập nhật bởi việc thực thi này. Kết quả của việc thực thi này được thể hiện trong biên nhận. Ethereum blockchain duy trì cả chuỗi hash của trạng thái và chuỗi hash của biên nhận. Tất cả các giao dịch được tạo ra đều được thẩm định. Thẩm định giao dịch bao gồm việc kiểm tra mốc thời gian và số nonce là đúng và khoản phí cho việc thực thi. Các nút miner trong mạng nhận, xác minh, tập hợp và thực hiện giao dịch. Mã hợp đồng thông minh được thực hiện bởi tất cả các miner. 
 
 ### **4. Mô hình khuyến khích(Incentive Model)**
 
