@@ -6,6 +6,21 @@ Chức năng chính của Layer 0 là đảm bảo an toàn và tăng trưởng 
 Trong lĩnh vực blockchain, layer 0 được coi là rất quan trọng, vì nó cung cấp nền tảng để xây dựng các ứng dụng và dịch vụ blockchain. Nếu layer 0 không đáp ứng được các yêu cầu về hiệu suất và bảo mật, thì các ứng dụng và dịch vụ trên các lớp trên đó sẽ không thể hoạt động một cách hiệu quả.
 
 Các dự án blockchain thường đầu tư nhiều vào nghiên cứu và phát triển layer 0, vì đây là một phần quan trọng của sự thành công của một mạng blockchain. Các dự án đang được phát triển trong lĩnh vực này bao gồm Bitcoin, Ethereum và Polkadot.
+
+### Layer1 trong Blockchain
+Layer 1 Blockchain là các blockchain nền tảng, hoạt động như mạng chính của hệ sinh thái và có khả năng xử lý, hoàn thiện các giao dịch trên blockchain của chính nó mà không cần mạng khác. Layer 1 Blockchain thường sở hữu native token riêng, được sử dụng để thanh toán phí giao dịch. Bên cạnh đó, Layer 1 Blockchain cũng hoạt động như cơ sở hạ tầng cho các ứng dụng, giao thức và mạng khác xây dựng trên đó như Layer 2 hay các dApp. 
+
+Layer1 bao gồm:
+
++ Giao thức mạng: Quy định cách các node trong mạng kết nối với nhau và truyền tải thông tin.
+
++ Thuật toán đồng thuận: Điều chỉnh cách các node trong mạng đồng bộ và đồng thuận về thông tin trong blockchain.
+
++ Blockchain: Lưu trữ các khối thông tin, các giao dịch và thông tin khác liên quan đến mạng.
+
+Với những tính năng này, layer1 có vai trò quan trọng trong đảm bảo tính bảo mật và đáng tin cậy của mạng blockchain. Nó tạo ra cơ sở cho những ứng dụng và tính năng phức tạp hơn có thể được xây dựng lên layer1, gọi là "layer2
+
+
 ### Giới thiệu về Cosmos
 Cosmos là một Blockchain Layer-0, phát triển để trở thành Internet of Blockchain. Cosmos sinh ra để giải quyết 3 vấn đề của Blockchain hiện nay:
 
