@@ -15,7 +15,7 @@
 
 &emsp; Binance Chain và Binance Smart Chain có thiết kế hoàn toàn đồng bộ và được tích hợp sẵn khả năng tương tích chuỗi chéo giữa 2 hình thức này. Với BSC lượng tài sản có thể được di chuyển nhanh chóng giữa các blockchain nên sẽ kết hợp được khả năng giao dịch tiền mã hoánhanh chóng của bản gốc với chức năng của hợp đồng thông minh ở bản cải tiến
 
-# 4. Ưu điểm nôi bật của BSC
+# 4.  Ưu điểm nôi bật của BSC
 - Chi phí giao dịch phải chăng, phù hợp với hầu hết người tham gia.
 
 - Mạng lưới có hiệu suất cao, chỉ sau 3 giây là có thể tạo ra một khối nhanh chóng.
