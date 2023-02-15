@@ -5,6 +5,7 @@
 ![Hình cover đề tài](https://github.com/Phuong-Trang/se2022-14.1/blob/main/png/0.png)
 :exclamation: **SET UP**
 - **Sử dụng [Remix - Ethereum IDE](https://remix.ethereum.org/)**
+- **Sử dụng ví MetaMask, mạng thử nghiệm **
 - **100% ngôn ngữ Solidity**
 - **Sử dụng chuẩn ERC20 của đồng ETH**
 
