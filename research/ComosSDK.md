@@ -1,7 +1,11 @@
 ### Layer0 trong Blockchain
-Layer 0 là tầng cơ sở dữ liệu của một mạng blockchain. Nó là nền tảng mà tất cả các tầng khác của stack blockchain được xây dựng, và nó cung cấp cơ sở hạ tầng cần thiết cho việc chuyển dữ liệu an toàn và hiệu quả trên mạng.
+Layer 0 trong blockchain thường được hiểu là tầng cơ sở, chứa các phần mềm cơ bản của một mạng blockchain. Layer 0 thường bao gồm các phần mềm định nghĩa chuỗi khối (blockchain protocol) và phần mềm định nghĩa giao thức mạng (networking protocol), cho phép các nút (node) trong mạng kết nối và giao tiếp với nhau.
 
 Chức năng chính của Layer 0 là đảm bảo an toàn và tăng trưởng của blockchain, và nó chịu trách nhiệm các nhiệm vụ như quản lý đồng thuận, xử lý giao dịch và lưu trữ dữ liệu trên mạng. Layer 0 thường được coi là tầng quan trọng nhất của stack blockchain, bởi bất kỳ lỗ hổng hoặc vấn đề nào tại tầng này có thể gây hại cho toàn bộ hệ thống.
+
+Trong lĩnh vực blockchain, layer 0 được coi là rất quan trọng, vì nó cung cấp nền tảng để xây dựng các ứng dụng và dịch vụ blockchain. Nếu layer 0 không đáp ứng được các yêu cầu về hiệu suất và bảo mật, thì các ứng dụng và dịch vụ trên các lớp trên đó sẽ không thể hoạt động một cách hiệu quả.
+
+Các dự án blockchain thường đầu tư nhiều vào nghiên cứu và phát triển layer 0, vì đây là một phần quan trọng của sự thành công của một mạng blockchain. Các dự án đang được phát triển trong lĩnh vực này bao gồm Bitcoin, Ethereum và Polkadot.
 ### Giới thiệu về Cosmos
 Cosmos là một Blockchain Layer-0, phát triển để trở thành Internet of Blockchain. Cosmos sinh ra để giải quyết 3 vấn đề của Blockchain hiện nay:
 
