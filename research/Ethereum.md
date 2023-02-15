@@ -3,14 +3,13 @@
 &emsp; Ethereum là một nền tảng mã nguồn mở dựa trên công nghệ blockchain cho phép các nhà phát triển xây dựng và triển khai các ứng dụng và hợp đồng thông minh hoạt động trên nền tảng blockchain. Mạng lưới Ethereum sử dụng đồng coin “Ether” hoạt động với tư cách tiền tệ của mạng lưới. Ether được trao đổi như một cách thức chi trả cho việc vận hành các ứng dụng phi tập trung trên mạng lưới. Đồng Ether cũng là tiền ảo lớn thứ hai thế giới vì giá trị vốn hóa thị trường đứng sau Bitcoin.
 
 ### **So sánh giữa Bitcoin và Ethereum**
-&emsp; Bitcoin và Ethereum tương đối giống nhau vì được phát triển trên nền tảng công nghệ blockchain. Điểm khác biệt lớn nhất giữa hai đồng tiền điện tử này là mục đích sử dụng và công nghệ cốt lõi của chúng.
+&emsp; Là đồng sáng lập của Bitcoin Magazine và blockchain Ethereum, Vitalik Buterin cũng là một nhà phát triển đóng góp mã nguồn cho dự án Bitcoin. Nhưng Buterin đã thất vọng với những giới hạn của dự án BTC và thúc đẩy việc phát triển một blockchain linh hoạt hơn. Vì vấp phải sự phản đối của cộng đồng Bitcoin nên anh đã sáng lập một blockchain công khai thứ hai gọi là Ethereum.
 
-Với Ethereum, đồng tiền này được tạo ra để trở thành một nền tảng cho việc phát triển Smart Contract và các dApps .
-Còn mục đích sử dụng của Bitcoin là trở thành một loại tiền tệ, một phương thức thanh toán và nơi lưu giữ giá trị.
+Bitcoin và Ethereum tương đối giống nhau vì được phát triển trên nền tảng công nghệ blockchain. Điểm khác biệt lớn nhất giữa hai đồng tiền điện tử này là mục đích sử dụng và công nghệ cốt lõi của chúng.
+- Ethereum được tạo ra để trở thành một nền tảng cho việc phát triển Smart Contract và các dApps.
+- Bitcoin được tạo ra để trở thành một loại tiền tệ, một phương thức thanh toán và nơi lưu giữ giá trị.
 
-Trong khi Bitcoin chỉ có thể đào được 21 triệu BTC, còn ETH có thể đào được vô tận.
-
-Ngoài ra, nên tảng Ethereum cũng có những ưu điểm hơn so với Bitcoin như:
+Bitcoin chỉ có thể đào được 21 triệu BTC, còn ETH có thể đào được vô tận. Ngoài ra, nên tảng Ethereum cũng có những ưu điểm hơn so với Bitcoin như:
 + Tốc độ giao dịch nhanh hơn Bitcoin
 + Phí giao dịch rẻ hơn Bitcoin
 
