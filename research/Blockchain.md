@@ -1,8 +1,21 @@
-# Các khái niệm cơ bản về BlockChain
+# Tìm hiểu cơ bản về BlockChain
+
+## Sơ lược về lịch sử và tầm ảnh hưởng 
+Công nghệ Blockchain xuất hiện lần đầu tiên vào năm 1991 bởi Stuart Haber và W. Scott Stornetta, hai nhà toán học muốn triển khai một hệ thống mà timestamp trên tài liệu không thể bị giả mạo. Tuy nhiên, chỉ đến khi Bitcoin lần đầu ra mắt công chúng thì công nghệ này mới được biết đến và phát triển rộng rãi. 
+
+Bối cảnh thế giới: khủng hoảng tài chính toàn cầu 2008. 
+- Tháng 9/2008 (nhen lên tham vọng tiền ảo): ngân hàng Lehman Brothers (Mỹ) sụp đổ. Đây là sự kiện khiến thế giới mất niềm tin vào hệ thống tài chính truyền thống (giao dịch không minh bạch, không đảm bảo), nơi “một nhóm nhỏ lãnh đạo ngân hàng thiết lập quy định tiền tệ áp dụng cho tất cả mọi người”, Pierre Noizat - nhà sáng lập sàn giao dịch Bitcoin đầu tiên tại Pháp nhận xét năm 2011.
+- Tháng 10/2008: Satoshi Nakamoto (hiện vẫn ẩn danh) công bố một bài báo về Bitcoin, loại tiền điện tử đầu tiên được tạo ra trên nền tảng blockchain. 
+- 2009: Bitcoin được phát hành và hấp nhận như một hình thức thanh toán => Blockchain trở nên phổ biến và được đón nhận rộng rãi
+
+Sau đó, nhiều loại tiền điện tử khác được phát triển trên nền tảng blockchain, bao gồm Ethereum. Đồng thời, các ứng dụng khác của blockchain đã được phát triển, nổi bật là hợp đồng thông minh (smart contracts). Blockchain ngày càng được coi là một công nghệ quan trọng và có tiềm năng để thay đổi cách thức hoạt động của các lĩnh vực kinh tế, tài chính và công nghệ thông tin.
 
 ## BlockChain là gì?
+Blockchain là một công nghệ lưu trữ dữ liệu phi tập trung (decentralized) và phân tán (distributed), cho phép lưu trữ và truyền tải các khối thông tin (block) được liên kết với nhau nhờ mã hóa mật mã (cryptography). Mỗi khối chứa một tập hợp các giao dịch (transactions) đã được xác minh và được đóng dấu thời gian. Công nghệ này cung cấp một cách an toàn để các cá nhân giao dịch tài sản kỹ thuật số trực tiếp với nhau mà không cần qua một bên trung gian thứ ba.
 
-Blockchain là một sổ cái kỹ thuật của các giao dịch được duy trì bởi một số mang máy tính theo cách khó bị hack hoặc thay đổi.Công nghệ này cung cấp một cách an toàn để các cá nhân giao dịch tài sản kỹ thuật số trực tiếp với nhau mà không cần qua một bên trung gian thứ ba.
+Chú ý:
+- Chưa có một phát biểu định nghĩa chính xác từng từ về Blockchain. Định nghĩa trên là theo ý hiểu của nhóm.  
+- Blockchain như cuốn một sổ cái kỹ thuật an toàn, minh bạch và bảo mật để lưu giao dịch của tất cả người dùng. 
 
 ## Đặc điểm nội bật của blockchain:
 
@@ -14,7 +27,7 @@ Blockchain là một sổ cái kỹ thuật của các giao dịch được duy 
 
 - Tính minh bạch: người dùng đều có thể theo dõi các dữ liệu có trong số cái blockchain, có thể thống kê toàn bộ lịch sử giao dịch có trên nền tảng.
 
-- Hợp đồng thông minh(Smart Contract): là hợp đồng kĩ thuật số cho phép người dùng giao dịch, thực thi mà không cần qua trung gian.
+- Hợp đồng thông minh (Smart Contract): là hợp đồng kĩ thuật số cho phép người dùng giao dịch, thực thi mà không cần qua trung gian.
 
 ## Tìm hiểu về phân loại và các thế hệ của blockchain
 
@@ -24,9 +37,9 @@ Blockchain là một sổ cái kỹ thuật của các giao dịch được duy 
 
 - **Blockchain private**(riêng tư): Được kiểm soát bởi một tổ chức duy nhất. Trong một blockchain riêng tư, tổ chức quản lý xác định ai có thể là một nút. Người quản lý cũng không nhất thiết phải cấp cho mỗi nút quyền như nhau để thực hiện các chức năng. Các blockchain riêng tư chỉ phi tập trung một phần vì quyền truy cập công khai bị hạn chế, ví dụ: mạng trao đổi tiền ảo giữa doanh nghiệp với doanh nghiệp Hyperledger.
 
-- **Consortium blockchain**(Liên hợp): một hệ thống bán phân quyền với nhiều hơn một tổ chức quản lý, trái ngược với hệ thống chỉ được quản lý bởi một tổ chức là blockchain riêng tư. Thêm vào đó công nghệ Blockchain – Consortium là hệ thống được sử dụng chủ yếu bởi các ngân hàng, các tổ chức chính phủ,…
+- **Consortium blockchain**(liên hợp): một hệ thống bán phân quyền với nhiều hơn một tổ chức quản lý, trái ngược với hệ thống chỉ được quản lý bởi một tổ chức là blockchain riêng tư. Thêm vào đó công nghệ Blockchain – Consortium là hệ thống được sử dụng chủ yếu bởi các ngân hàng, các tổ chức chính phủ,…
 
-- **Hybrid Blockchain**(Hỗn hợp): là sự kết hợp giữa blockchain công khai và riêng tư, được kiểm soát bởi một tổ chức duy nhất, nhưng với mức độ giám sát được thực hiện bởi blockchain công khai, được yêu cầu để thực hiện xác thực giao dịch nhất định, ví dụ: IBM Food Trust.
+- **Hybrid Blockchain**(hỗn hợp): là sự kết hợp giữa blockchain công khai và riêng tư, được kiểm soát bởi một tổ chức duy nhất, nhưng với mức độ giám sát được thực hiện bởi blockchain công khai, được yêu cầu để thực hiện xác thực giao dịch nhất định, ví dụ: IBM Food Trust.
 
 ### Cấu trúc của blockchain
 
