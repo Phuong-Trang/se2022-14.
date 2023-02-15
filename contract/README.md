@@ -91,9 +91,12 @@ Các biến được khai báo trong bộ nhớ là biến tham chiếu: Mảng,
 
 **7. Giá trị trả về của hàm và công cụ sửa đổi hàm**
 + Khai báo hàm với từ khoá “returns”
-VD: function ten_function public returns (string memory){
+VD: 
+```solidity
+function ten_function public returns (string memory){
 	return …;
 }
+```
 Giá trị trả về là 1 chuỗi
 + Trường hợp hàm chúng ta chỉ cho xem chứ không thể thay đổi dữ liệu thì chúng ta dùng từ khoá “view”
 VD: function ten_function view returns (...){..}
@@ -108,13 +111,13 @@ keccak256(abi.encodePacked("....."));
 Events - Sự kiện là một cách để hợp đồng của bạn thông báo rằng điều gì đó đã xảy ra trên blockchain đến giao diện người dùng của ứng dụng, có thể 'lắng nghe các sự kiện và thực hiện hành động khi chúng xảy ra
 // Khai báo sự kiện
 event……(tham số);
-
+```solidity
 function…..(tham số) public returns (uint) {
 code….  
   // kich hoat su kien cho ung dung dapp biet ham nay dang duoc chay
   emit tên_sự_kiện(tham số);
 }
-
+```
 **10. Address - Địa chỉ của ví**
 Blockchain Ethereum có các tài khoản, bạn có thể coi nó giống như tài khoản ngân hàng. Một tài khoản có số dư Ether (đơn vị tiền tệ được sử dụng trên chuỗi khối Ethereum) và bạn có thể gửi và nhận các khoản thanh toán bằng Ether đến các tài khoản khác, giống như tài khoản ngân hàng của bạn có thể chuyển tiền đến các tài khoản ngân hàng khác.
 
