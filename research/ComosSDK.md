@@ -8,7 +8,7 @@ Trong lĩnh vực blockchain, layer 0 được coi là rất quan trọng, vì n
 Các dự án blockchain thường đầu tư nhiều vào nghiên cứu và phát triển layer 0, vì đây là một phần quan trọng của sự thành công của một mạng blockchain. Các dự án đang được phát triển trong lĩnh vực này bao gồm Bitcoin, Ethereum và Polkadot.
 
 ### Layer1 trong Blockchain
-Layer 1 Blockchain là các blockchain nền tảng, hoạt động như mạng chính của hệ sinh thái và có khả năng xử lý, hoàn thiện các giao dịch trên blockchain của chính nó mà không cần mạng khác. Layer 1 Blockchain thường sở hữu native token riêng, được sử dụng để thanh toán phí giao dịch. Bên cạnh đó, Layer 1 Blockchain cũng hoạt động như cơ sở hạ tầng cho các ứng dụng, giao thức và mạng khác xây dựng trên đó như Layer 2 hay các dApp. 
+Mạng layer-1 là tên gọi khác của một blockchain cơ sở. BNB Smart Chain (BNB), Ethereum (ETH), Bitcoin (BTC) và Solana đều là các giao thức layer 1. Chúng ta gọi chúng là layer 1 vì đây là các mạng chính trong hệ sinh thái của chúng, có khả năng xử lý, hoàn thiện các giao dịch trên blockchain của chính nó mà không cần mạng khác. Layer 1 Blockchain thường sở hữu native token riêng, được sử dụng để thanh toán phí giao dịch. Bên cạnh đó, Layer 1 Blockchain cũng hoạt động như cơ sở hạ tầng cho các ứng dụng, giao thức và mạng khác xây dựng trên đó như Layer 2 hay các dApp. 
 
 Layer1 bao gồm:
 
