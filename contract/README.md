@@ -83,8 +83,10 @@ Mảng động: vd uint []array
 Cũng có thể tạo 1 mảng cấu trúc
 
 **6. Khai báo hàm** 
+```solidity
 function tên hàm (tham số truyền vào) public (có thể có returns) {
 }
+```
 Các biến được khai báo trong bộ nhớ là biến tham chiếu: Mảng, cấu trúc, ánh xạ, chuỗi
 
 **7. Giá trị trả về của hàm và công cụ sửa đổi hàm**
